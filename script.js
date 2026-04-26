@@ -10,7 +10,8 @@ const featuredProjects = [
       "Practiced reusable layout structure and component-based styling for service-business websites."
     ],
     tags: ["React", "Vite", "React Bootstrap", "Responsive UI"],
-    repo: "https://github.com/Akshitam11/Classes-website"
+    repo: "https://github.com/Akshitam11/Classes-website",
+    livelink: ""
   },
   {
     title: "React Mini Projects Hub",
@@ -23,10 +24,11 @@ const featuredProjects = [
       "Improved code reuse and project presentation by converting separate exercises into one cohesive app."
     ],
     tags: ["React", "React Router", "Lazy Loading", "UI Experiments"],
-    repo: "https://github.com/Akshitam11/React-Mini-Projects"
+    repo: "https://github.com/Akshitam11/React-Mini-Projects",
+    livelink: "https://react-mini-projects-self.vercel.app/"
   },
   {
-    title: "React Todo App",
+    title: "React Task Manager App",
     type: "React State Management",
     summary:
       "Developed a task manager in React with add, edit, complete, filter, and delete flows backed by localStorage persistence.",
@@ -36,7 +38,8 @@ const featuredProjects = [
       "Used React state, effects, and conditional rendering to manage day-to-day task operations."
     ],
     tags: ["React", "localStorage", "CRUD", "Productivity UI"],
-    repo: "https://github.com/Akshitam11/Todolist-React-"
+    repo: "https://github.com/Akshitam11/Todolist-React-",
+    livelink: "https://taskmanagerreact-psi.vercel.app/"
   },
   {
     title: "React Product List",
@@ -49,7 +52,8 @@ const featuredProjects = [
       "Focused on clean form handling and fast feedback in the interface."
     ],
     tags: ["React", "Forms", "State", "List Rendering"],
-    repo: "https://github.com/Akshitam11/Product_list_react"
+    repo: "https://github.com/Akshitam11/Product_list_react",
+    livelink: "https://product-list-react-xi.vercel.app/"
   },
   {
     title: "Amazon UI Clone",
@@ -62,10 +66,11 @@ const featuredProjects = [
       "Strengthened CSS positioning and interface breakdown skills through clone work."
     ],
     tags: ["HTML", "CSS", "UI Clone", "Layout Practice"],
-    repo: "https://github.com/Akshitam11/Amazon"
+    repo: "https://github.com/Akshitam11/Amazon",
+    livelink: "https://amazonproject-xi.vercel.app/"
   },
   {
-    title: "Vanilla JS To-Do List",
+    title: "JS To-Do List",
     type: "JavaScript + localStorage",
     summary:
       "Created a browser-based to-do list in plain JavaScript with persistent task storage, task editing, completion tracking, and filtering.",
@@ -75,7 +80,8 @@ const featuredProjects = [
       "Practiced DOM manipulation and state synchronization directly in JavaScript."
     ],
     tags: ["JavaScript", "DOM", "localStorage", "Task Manager"],
-    repo: "https://github.com/Akshitam11/To-do-list"
+    repo: "https://github.com/Akshitam11/To-do-list",
+    livelink: "https://to-do-list-liard-chi-22.vercel.app/"
   }
 ];
 
@@ -86,6 +92,7 @@ const labProjects = [
     description:
       "Adds a heart animation and like counter when the user double-clicks on the image area.",
     repo: "https://github.com/Akshitam11/double_click_heart",
+    livelink: "https://double-click-heart-six.vercel.app/",
     stack: ["JavaScript", "DOM Events"]
   },
   {
@@ -94,6 +101,7 @@ const labProjects = [
     description:
       "Implements a stopwatch with start, pause, reset, and millisecond tracking logic.",
     repo: "https://github.com/Akshitam11/stopwatch",
+    livelink: "https://stopwatch-ebon-one.vercel.app/",
     stack: ["JavaScript", "Timers"]
   },
   {
@@ -102,6 +110,7 @@ const labProjects = [
     description:
       "Builds a multi-step progress component with previous and next controls.",
     repo: "https://github.com/Akshitam11/progress_steps",
+    livelink: "https://progress-steps-dun-five.vercel.app/",
     stack: ["JavaScript", "UI States"]
   },
   {
@@ -110,6 +119,7 @@ const labProjects = [
     description:
       "Creates a responsive navigation pattern with a hamburger trigger and sliding option panel.",
     repo: "https://github.com/Akshitam11/navbar",
+    livelink: "https://navbar-hazel-psi.vercel.app/",
     stack: ["HTML", "CSS", "JavaScript"]
   },
   {
@@ -118,6 +128,7 @@ const labProjects = [
     description:
       "Expands a compact search UI into an active input field with animated interaction.",
     repo: "https://github.com/Akshitam11/hidden_search",
+    livelink: "https://hidden-search-bice.vercel.app/",
     stack: ["CSS", "DOM Interaction"]
   },
   {
@@ -126,6 +137,7 @@ const labProjects = [
     description:
       "Implements the classic good-cheap-fast toggle constraint to demonstrate conditional UI logic.",
     repo: "https://github.com/Akshitam11/project_need",
+    livelink: "https://project-need.vercel.app/",
     stack: ["JavaScript", "Logic"]
   },
   {
@@ -134,6 +146,7 @@ const labProjects = [
     description:
       "Animates login form labels with staggered letter transitions for a polished micro-interaction.",
     repo: "https://github.com/Akshitam11/form_input_wave",
+    livelink: "https://form-input-wave-sepia.vercel.app/",
     stack: ["CSS Animation", "JavaScript"]
   },
   {
@@ -142,6 +155,7 @@ const labProjects = [
     description:
       "Maps keyboard keys and clicks to drum sounds for an interactive music UI exercise.",
     repo: "https://github.com/Akshitam11/drum_kit",
+    livelink: "https://drum-kit-alpha-one.vercel.app/",
     stack: ["JavaScript", "Audio"]
   },
   {
@@ -150,6 +164,7 @@ const labProjects = [
     description:
       "Fetches a single post from JSONPlaceholder based on user input and renders the result.",
     repo: "https://github.com/Akshitam11/fetch_post",
+    livelink: "https://fetch-post-phi.vercel.app/",
     stack: ["Fetch API", "Validation"]
   },
   {
@@ -158,6 +173,7 @@ const labProjects = [
     description:
       "Retrieves and displays comment data for a given post ID using the JSONPlaceholder API.",
     repo: "https://github.com/Akshitam11/fetch_postcomment",
+    livelink: "https://fetch-postcomment.vercel.app/",
     stack: ["Fetch API", "Rendering Lists"]
   },
   {
@@ -166,6 +182,7 @@ const labProjects = [
     description:
       "Creates a hover-based navigation menu with nested course links and submenu behavior.",
     repo: "https://github.com/Akshitam11/Dropdown",
+    livelink: "https://dropdown-gules-one.vercel.app/",
     stack: ["HTML", "CSS"]
   },
   {
@@ -174,6 +191,7 @@ const labProjects = [
     description:
       "Builds an animated hamburger icon that transitions into a close state on click.",
     repo: "https://github.com/Akshitam11/hamburger_menu",
+    livelink: "https://hamburger-menu-rho.vercel.app/",
     stack: ["CSS Transform", "JavaScript"]
   }
 ];
@@ -215,6 +233,7 @@ function renderFeaturedProjects() {
           </div>
           <div class="project-links">
             <a class="project-link" href="${project.repo}" target="_blank" rel="noreferrer">View Repository</a>
+            <a class="project-link" href="${project.livelink}" target="_blank" rel="noreferrer">View Live Website</a>
           </div>
         </article>
       `
@@ -251,6 +270,7 @@ function renderLabProjects(activeFilter = "all") {
           <div class="project-tags">${createTagList(project.stack)}</div>
           <div class="project-links">
             <a class="project-link" href="${project.repo}" target="_blank" rel="noreferrer">Repository</a>
+            <a class="project-link" href="${project.livelink}" target="_blank" rel="noreferrer">Live Website</a>
           </div>
         </article>
       `
