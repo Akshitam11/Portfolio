@@ -11,7 +11,7 @@ const featuredProjects = [
     ],
     tags: ["React", "Vite", "React Bootstrap", "Responsive UI"],
     repo: "https://github.com/Akshitam11/Classes-website",
-    livelink: ""
+    livelink: "https://classes-website-9qgz.vercel.app/"
   },
   {
     title: "React Mini Projects Hub",
