@@ -31,15 +31,21 @@
       </header>
 
       <main id="top">
-        <section class="hero section reveal">
-          <div class="hero-copy">
-            <p class="eyebrow">Frontend Developer</p>
-            <h1>Hi, I&rsquo;m Akshita <span aria-hidden="true">&#128075;</span></h1>
-            <p class="hero-role">Frontend Developer specializing in React.js</p>
+        <section class="hero section">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Frontend Developer Portfolio</p>
+            <h1>Hi, I&rsquo;m Akshita</h1>
+            <p class="hero-subtitle">Frontend Developer specializing in React.js</p>
             <p class="hero-summary">
               I build responsive and user-friendly web applications with a focus
               on clean UI and practical functionality.
             </p>
+            <p class="hero-summary hero-supporting">
+              I am currently looking for frontend and web developer
+              opportunities where I can contribute, learn quickly, and grow
+              through real product work.
+            </p>
+
             <div class="hero-actions">
               <a class="button button-primary" href="#projects">View Projects</a>
               <a class="button button-secondary" href="Akshita-Mehta-Resume.pdf" download
@@ -47,29 +53,53 @@
               >
               <a class="button button-secondary" href="#contact">Contact Me</a>
             </div>
-            <div class="hero-highlights">
-              <article>
-                <span>React.js</span>
-                <p>Component-focused interfaces with clean frontend structure.</p>
-              </article>
-              <article>
-                <span>Responsive UI</span>
-                <p>Layouts designed to stay usable across mobile and desktop.</p>
-              </article>
-              <article>
-                <span>Open to Roles</span>
-                <p>Available for frontend internships and junior developer opportunities.</p>
-              </article>
-            </div>
+
+            <ul class="quick-facts">
+              <li>Ahmedabad, Gujarat, India</li>
+              <li>Open to Frontend / Web Developer roles</li>
+              <li>English, Gujarati, Hindi</li>
+            </ul>
           </div>
+
+          <aside class="hero-panel reveal">
+            <div class="spotlight-card">
+              <p class="spotlight-label">Profile Snapshot</p>
+              <div class="spotlight-grid">
+                <div>
+                  <span class="spotlight-value">10+</span>
+                  <span class="spotlight-text">Projects built and published</span>
+                </div>
+                <div>
+                  <span class="spotlight-value">React</span>
+                  <span class="spotlight-text">Primary frontend focus</span>
+                </div>
+                <div>
+                  <span class="spotlight-value">MCA</span>
+                  <span class="spotlight-text">Current academic path</span>
+                </div>
+                <div>
+                  <span class="spotlight-value">KICT</span>
+                  <span class="spotlight-text">Frontend certification</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="availability-card">
+              <p class="card-kicker">Currently</p>
+              <h2>Building stronger frontend work</h2>
+              <ul class="current-focus-list">
+                <li>Building React projects to strengthen frontend skills</li>
+                <li>Learning advanced JavaScript concepts</li>
+                <li>Open to frontend internships and junior developer roles</li>
+              </ul>
+            </div>
+          </aside>
         </section>
 
-        <section class="section" id="about">
-          <div class="section-heading reveal">
+        <section class="section about-grid" id="about">
+          <div class="panel reveal">
             <p class="section-tag">About</p>
             <h2>Focused on building useful frontend experiences</h2>
-          </div>
-          <div class="content-panel reveal">
             <p>
               I am an MCA student with a strong interest in frontend development
               and building user-focused web applications.
@@ -91,6 +121,24 @@
               where I can contribute, learn quickly, and grow as a developer.
             </p>
           </div>
+
+          <div class="panel reveal">
+            <p class="section-tag">Strengths</p>
+            <h2>Practical habits I bring to frontend work</h2>
+            <p>
+              My development approach is shaped by building for usability,
+              paying attention to detail, and thinking through what users need
+              to do quickly and clearly.
+            </p>
+            <div class="strength-list">
+              <span>Problem Solving</span>
+              <span>Clean UI</span>
+              <span>Responsive Design</span>
+              <span>Attention to Detail</span>
+              <span>User Needs</span>
+              <span>Communication</span>
+            </div>
+          </div>
         </section>
 
         <section class="section" id="skills">
@@ -98,8 +146,9 @@
             <p class="section-tag">Skills</p>
             <h2>Core frontend and deployment tools</h2>
           </div>
+
           <div class="skills-grid">
-            <article class="skill-card reveal">
+            <article class="panel skill-panel reveal">
               <h3>Frontend</h3>
               <div class="skill-tags">
                 <span>HTML</span>
@@ -109,7 +158,7 @@
                 <span>Bootstrap</span>
               </div>
             </article>
-            <article class="skill-card reveal">
+            <article class="panel skill-panel reveal">
               <h3>Tools</h3>
               <div class="skill-tags">
                 <span>Git</span>
@@ -124,21 +173,32 @@
         <section class="section" id="projects">
           <div class="section-heading reveal">
             <p class="section-tag">Projects</p>
-            <h2>Selected work</h2>
+            <h2>Selected work from GitHub</h2>
             <p>
-              These projects highlight practical frontend problem-solving,
-              responsive UI work, and JavaScript-driven interactions.
+              Featured projects highlight stronger frontend and React work. The
+              practice lab captures smaller JavaScript exercises focused on UI
+              logic, interaction design, and component behavior.
             </p>
           </div>
-          <div class="projects-grid" id="projects-grid"></div>
+
+          <div class="featured-projects" id="featured-projects"></div>
+
+          <div class="project-lab reveal">
+            <div class="lab-heading">
+              <div>
+                <p class="section-tag">Practice Lab</p>
+                <h3>Interactive UI and JavaScript exercises</h3>
+              </div>
+              <div class="filter-row" id="project-filters" aria-label="Project filters"></div>
+            </div>
+            <div class="lab-grid" id="lab-projects"></div>
+          </div>
         </section>
 
         <section class="section" id="currently">
-          <div class="section-heading reveal">
+          <div class="panel currently-block reveal">
             <p class="section-tag">Currently</p>
             <h2>What I&rsquo;m focused on right now</h2>
-          </div>
-          <div class="currently-panel reveal">
             <ul class="currently-list">
               <li>Building React projects to strengthen frontend skills</li>
               <li>Learning advanced JavaScript concepts</li>
@@ -148,7 +208,7 @@
         </section>
 
         <section class="section credentials" id="education">
-          <div class="content-panel reveal">
+          <div class="timeline panel reveal">
             <p class="section-tag">Education</p>
             <h2>Academic background</h2>
             <div class="timeline-list">
@@ -179,7 +239,7 @@
             </div>
           </div>
 
-          <div class="content-panel reveal">
+          <div class="panel reveal">
             <p class="section-tag">Highlights</p>
             <h2>Experience beyond coursework</h2>
             <div class="highlight-stack">
@@ -190,16 +250,15 @@
               <article class="highlight-card">
                 <h3>Co-Founder, PACrocheting</h3>
                 <p>
-                  Manage customer communication, product planning, order
-                  handling, and customization requests for a handmade crochet
-                  business.
+                  Manage customer communication, order handling, customized
+                  products, and product planning for a handmade crochet brand.
                 </p>
               </article>
               <article class="highlight-card">
-                <h3>Customer-focused execution</h3>
+                <h3>User-focused thinking</h3>
                 <p>
-                  Built strong habits around detail, clarity, and solving
-                  practical user needs through direct customer interaction.
+                  Real customer interactions strengthened my understanding of
+                  clarity, detail, and solving practical user needs.
                 </p>
               </article>
             </div>
@@ -248,7 +307,7 @@
 
       <footer class="site-footer">
         <p>&copy; <span id="year"></span> Akshita Mehta</p>
-        <p>Frontend portfolio focused on clean UI and practical projects.</p>
+        <p>Built for recruiter-ready presentation and resume support.</p>
       </footer>
     </div>
 
