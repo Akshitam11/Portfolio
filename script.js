@@ -3,13 +3,13 @@ const featuredProjects = [
     title: "Classes Website",
     type: "React + Bootstrap",
     summary:
-      "Built a responsive website for a computer academy using React.js and Bootstrap, helping students and parents understand course offerings, testimonials, and contact details in one clear interface.",
-    techStack: ["React.js", "JavaScript", "React Bootstrap", "CSS"],
-    features: [
-      "Organized course and service details into sections that are easier for visitors to scan and compare.",
-      "Designed responsive layouts so the website remains usable across mobile and desktop screens.",
-      "Used reusable UI components to keep testimonials, gallery content, and inquiries visually consistent."
+      "Built a responsive website for a computer academy to present courses, testimonials, gallery content, and inquiry details in one clear experience. The project helps visitors understand offerings quickly and makes the business easier to explore on any device.",
+    highlights: [
+      "Structured service information into clear sections so users can compare courses without confusion.",
+      "Designed responsive layouts that keep navigation and content accessible across mobile and desktop screens.",
+      "Used reusable UI components to maintain a consistent presentation for testimonials, course cards, and contact areas."
     ],
+    tags: ["React.js", "JavaScript", "React Bootstrap", "CSS"],
     repo: "https://github.com/Akshitam11/Classes-website",
     livelink: "https://classes-website-9qgz.vercel.app/"
   },
@@ -17,13 +17,13 @@ const featuredProjects = [
     title: "React Mini Projects Hub",
     type: "React Router App",
     summary:
-      "Created a single React application that groups multiple mini projects into one portfolio-style experience, making interactive demos easier to browse and present.",
-    techStack: ["React.js", "JavaScript", "React Router", "CSS"],
-    features: [
-      "Connected separate mini projects through routing so users can move between demos without leaving the app.",
-      "Improved project presentation by turning isolated exercises into one structured showcase.",
-      "Made the codebase easier to maintain by centralizing shared layout and navigation patterns."
+      "Created a single React application that organizes multiple frontend mini projects into one navigable experience. This makes it easier to showcase interactive experiments without sending users through disconnected demos.",
+    highlights: [
+      "Combined separate practice projects into one portfolio-friendly structure for easier browsing.",
+      "Used route-based navigation so users can move between demos quickly without losing context.",
+      "Improved maintainability by grouping shared layout and interaction patterns inside one codebase."
     ],
+    tags: ["React.js", "JavaScript", "React Router", "CSS"],
     repo: "https://github.com/Akshitam11/React-Mini-Projects",
     livelink: "https://react-mini-projects-self.vercel.app/"
   },
@@ -31,13 +31,13 @@ const featuredProjects = [
     title: "React Task Manager App",
     type: "React State Management",
     summary:
-      "Built a responsive task management application using React.js with local storage persistence, allowing users to organize, update, and track tasks efficiently through a simple day-to-day workflow.",
-    techStack: ["React.js", "JavaScript", "CSS", "localStorage"],
-    features: [
-      "Saved tasks in local storage so users do not lose progress after refreshing the page.",
-      "Added filters and status controls to help users focus on pending or completed tasks quickly.",
-      "Included edit and delete flows to support practical task management instead of one-time list creation."
+      "Built a responsive task management application using React.js with local storage persistence, allowing users to organize, update, and track tasks efficiently. The interface focuses on day-to-day usability with clear actions and filtered task views.",
+    highlights: [
+      "Saved task data in local storage so users do not lose progress after refreshing the page.",
+      "Added task filtering and status updates to help users focus on pending or completed work.",
+      "Included edit and delete flows to support practical task management instead of static list entry."
     ],
+    tags: ["React.js", "JavaScript", "CSS", "localStorage"],
     repo: "https://github.com/Akshitam11/Todolist-React-",
     livelink: "https://taskmanagerreact-psi.vercel.app/"
   },
@@ -45,13 +45,13 @@ const featuredProjects = [
     title: "React Product List",
     type: "React Form UI",
     summary:
-      "Developed a lightweight product listing interface that allows users to add and manage product names and prices with immediate visual feedback.",
-    techStack: ["React.js", "JavaScript", "CSS"],
-    features: [
-      "Rendered new product entries instantly so users receive immediate confirmation after submitting data.",
-      "Used state-driven updates to keep the interface accurate without page reloads.",
-      "Added item removal controls to make correcting or managing entries straightforward."
+      "Developed a lightweight product entry interface that allows users to add and manage product names with pricing information in real time. The project demonstrates clear form handling and immediate feedback for list-based workflows.",
+    highlights: [
+      "Rendered new products instantly to give users immediate confirmation after form submission.",
+      "Used simple state-driven updates to keep the product list accurate and easy to manage.",
+      "Added removal controls so users can correct entries without reloading the interface."
     ],
+    tags: ["React.js", "JavaScript", "CSS"],
     repo: "https://github.com/Akshitam11/Product_list_react",
     livelink: "https://product-list-react-xi.vercel.app/"
   },
@@ -59,13 +59,13 @@ const featuredProjects = [
     title: "Amazon UI Clone",
     type: "HTML + CSS",
     summary:
-      "Recreated a large e-commerce style homepage to practice content-heavy layout structure, visual hierarchy, and responsive UI composition.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    features: [
-      "Structured banners, navigation, and product sections into a layout that remains visually scannable.",
-      "Practiced card-based UI patterns commonly used in retail and marketplace websites.",
-      "Improved styling control through large-scale page composition and section spacing."
+      "Recreated a large e-commerce style homepage to practice complex layout structuring, promotional sections, and content-heavy navigation. The project helped strengthen visual hierarchy and responsive styling for retail-style interfaces.",
+    highlights: [
+      "Organized multiple product and promotion sections into a layout that remains visually scannable.",
+      "Practiced navigation and card-based content patterns common in large e-commerce experiences.",
+      "Improved CSS layout control through banners, grids, and section spacing inspired by production sites."
     ],
+    tags: ["HTML", "CSS", "JavaScript"],
     repo: "https://github.com/Akshitam11/Amazon",
     livelink: "https://amazonproject-xi.vercel.app/"
   },
@@ -73,13 +73,13 @@ const featuredProjects = [
     title: "JavaScript To-Do List",
     type: "JavaScript + localStorage",
     summary:
-      "Created a browser-based to-do application in JavaScript with persistent storage, giving users a simple way to manage tasks without relying on a backend.",
-    techStack: ["JavaScript", "HTML", "CSS", "localStorage"],
-    features: [
+      "Created a browser-based to-do application in JavaScript for users who need a simple way to manage tasks without signing in or using a backend. The project focuses on fast interaction, persistent storage, and practical task control.",
+    highlights: [
       "Stored tasks locally so users can return to their list without losing saved items.",
-      "Supported add, edit, complete, and delete actions for full task lifecycle management.",
-      "Included filtering logic to help users review tasks based on completion status more efficiently."
+      "Added create, edit, complete, and delete actions to support full task lifecycle management.",
+      "Used filtering logic to help users review tasks based on completion status more efficiently."
     ],
+    tags: ["JavaScript", "HTML", "CSS", "localStorage"],
     repo: "https://github.com/Akshitam11/To-do-list",
     livelink: "https://to-do-list-liard-chi-22.vercel.app/"
   }
@@ -225,12 +225,9 @@ function renderFeaturedProjects() {
             </div>
           </div>
           <p class="project-description">${project.summary}</p>
-          <p class="project-stack"><strong>Tech Stack:</strong> ${project.techStack.join(", ")}</p>
-          <div class="project-section">
-            <p class="feature-label">Key Features</p>
-            <ul class="project-features">
-              ${project.features.map((item) => `<li>${item}</li>`).join("")}
-            </ul>
+          <div class="project-tags">${createTagList(project.tags)}</div>
+          <div class="project-notes">
+            ${project.highlights.map((note) => `<p>${note}</p>`).join("")}
           </div>
           <div class="project-links">
             <a class="project-link" href="${project.livelink}" target="_blank" rel="noreferrer">Live Demo</a>
@@ -323,5 +320,4 @@ renderFilters("all");
 renderLabProjects("all");
 initializeProjectFilters();
 observeReveals();
-
 yearEl.textContent = new Date().getFullYear();

@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --bg: #f6efe4;
   --bg-alt: #fff8ee;
   --panel: rgba(255, 251, 245, 0.84);
@@ -114,7 +114,7 @@ img {
 }
 
 .section {
-  padding: 3rem 0 1.2rem;
+  padding: 2rem 0 1rem;
 }
 
 .hero {
@@ -128,6 +128,7 @@ img {
 .hero-copy,
 .hero-panel,
 .panel,
+.content-panel,
 .contact-section,
 .project-lab {
   background: var(--panel);
@@ -144,9 +145,7 @@ img {
 .eyebrow,
 .section-tag,
 .spotlight-label,
-.card-kicker,
-.project-overline,
-.feature-label {
+.card-kicker {
   margin: 0 0 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
@@ -188,19 +187,14 @@ h4 {
   font-size: 1.2rem;
   line-height: 1.7;
   color: var(--text);
-  font-weight: 700;
 }
 
 .hero-summary,
 .section-heading p,
 .panel > p,
+.content-panel > p,
 .availability-card p,
-.contact-copy p,
-.project-description,
-.project-stack,
-.lab-card p,
-.currently-list li,
-.current-focus-list li {
+.contact-copy p {
   margin: 1rem 0 0;
   color: var(--muted);
   line-height: 1.75;
@@ -230,9 +224,7 @@ h4 {
 }
 
 .button:hover,
-.button:focus-visible,
-.project-link:hover,
-.project-link:focus-visible {
+.button:focus-visible {
   transform: translateY(-2px);
 }
 
@@ -259,8 +251,7 @@ h4 {
 .quick-facts li,
 .strength-list span,
 .project-tag,
-.filter-button,
-.skill-tags span {
+.filter-button {
   padding: 0.68rem 0.95rem;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.72);
@@ -323,42 +314,58 @@ h4 {
     linear-gradient(180deg, #fffaf2, #fff5ea);
 }
 
-.current-focus-list,
-.currently-list,
-.project-features {
+.current-focus-list {
   margin: 1rem 0 0;
   padding-left: 1.15rem;
   color: var(--muted);
 }
 
-.current-focus-list li + li,
-.currently-list li + li,
-.project-features li + li {
+.current-focus-list li + li {
   margin-top: 0.55rem;
 }
 
 .about-grid,
-.credentials,
-.skills-grid {
+.credentials {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem;
 }
 
-.panel {
+.panel,
+.content-panel {
   padding: 1.8rem;
 }
 
-.strength-list,
-.skill-tags {
+.strength-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 1.5rem;
 }
 
-.skill-panel h3 {
-  font-size: 1.2rem;
+.skill-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.skill-columns-expanded,
+.currently-columns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.skill-columns h3 {
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.skill-columns p {
+  margin: 0.4rem 0 0;
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .section-heading {
@@ -408,13 +415,9 @@ h4 {
   color: var(--muted);
 }
 
-.project-section {
+.project-notes {
   display: grid;
-  gap: 0.7rem;
-}
-
-.project-stack {
-  font-weight: 600;
+  gap: 0.55rem;
 }
 
 .project-tags,
@@ -432,22 +435,13 @@ h4 {
 }
 
 .project-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 44px;
-  padding: 0.75rem 1rem;
-  border-radius: 999px;
   font-weight: 800;
   color: var(--accent-dark);
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid rgba(15, 124, 115, 0.14);
 }
 
 .project-link:hover,
 .project-link:focus-visible {
   color: var(--warm);
-  background: rgba(255, 255, 255, 0.95);
 }
 
 .project-lab {
@@ -546,8 +540,12 @@ h4 {
   padding: 1.8rem;
 }
 
+.contact-copy .button {
+  margin-top: 1.2rem;
+}
+
 .contact-cards {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .contact-card {
@@ -569,12 +567,6 @@ h4 {
   font-size: 0.8rem;
   font-weight: 800;
   color: var(--accent-dark);
-}
-
-.currently-block {
-  background:
-    linear-gradient(135deg, rgba(15, 124, 115, 0.08), transparent 60%),
-    var(--panel);
 }
 
 .site-footer {
@@ -602,13 +594,17 @@ h4 {
   .hero,
   .about-grid,
   .credentials,
-  .skills-grid,
   .contact-section,
-  .featured-projects {
+  .featured-projects,
+  .currently-columns {
     grid-template-columns: 1fr;
   }
 
   .lab-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -636,11 +632,13 @@ h4 {
   .hero-copy,
   .hero-panel,
   .panel,
+  .content-panel,
   .project-lab,
   .contact-section {
     padding: 1.2rem;
   }
 
+  .skill-columns,
   .lab-grid,
   .spotlight-grid,
   .contact-cards {
